@@ -1,0 +1,15 @@
+---
+application:
+  name: "awesome-rust"
+  project: "teabot"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "sas"
+  version: "3.6"
+routers:
+- name: "main-awesome-rust"
+  routes:
+  - application_name: "awesome-rust"
+    paths:
+    - "/*"
